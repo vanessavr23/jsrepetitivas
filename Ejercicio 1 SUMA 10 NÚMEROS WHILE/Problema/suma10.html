@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>SUMATORIA10DIGITOS</TITLE>
+	</HEAD>
+	<BODY onload="sumatoria10digitos();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20150822-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function sumatoria10digitos() {
+				var n, suma, x;
+				x = 1;
+				suma = 0;
+				while (x<=10) {
+					document.write(("digite un numero"),'<BR/>');
+					n = Number(prompt());
+					suma = suma+n;
+					x = x+1;
+				}
+				document.write("la suma de los 10 numero es: ",suma,'<BR/>');
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
